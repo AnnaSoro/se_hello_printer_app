@@ -1,5 +1,6 @@
 Simple Flask App
 ================
+
 .. image:: https://travis-ci.org/AnnaSoro/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/AnnaSoro/se_hello_printer_app
 
