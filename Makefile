@@ -9,6 +9,8 @@ lint:
 
 test:
 	PYTHONPATH=. py.test  --verbose -s
+	test_cov
+	test_xunit
 
 run:
 	python main.py
@@ -22,7 +24,7 @@ docker_run: docker_build
 		-p 5000:5000 \
 		-d hello-world-printer
 
-USERNAME=karinabirecka
+USERNAME=aniasoro
 TAG=$(USERNAME)/hello-world-printer
 
 docker_push: docker_build
